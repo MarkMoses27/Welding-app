@@ -1,0 +1,92 @@
+/* FILEPATH: /c:/Users/user/marweld-co/src/Components/Header.css */
+
+:root {
+    --main-bg-color: #fff;       /* Main background color */
+    --text-color: #000;          /* Text color */
+    --logo-color: #333;          /* Logo color */
+    --link-color: #000;          /* Default link color */
+    --link-hover-color: #ea5530; /* Link color on hover */
+    --search-icon-color: #000;   /* Search icon color */
+  
+}
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--main-bg-color);
+    padding: 20px;
+    color: var(--text-color);
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--logo-color);
+    /* Add additional logo styles here */
+  }
+  
+
+  .logo a{
+    text-decoration: none;
+    color: var(--logo-color);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  
+    /* Additional hover effect */
+    &:hover {
+      color: var(--link-hover-color);
+    }
+  }
+  /* Search icon styles */
+  .search-icon a{
+    font-size: 20px;
+    color: var(--search-icon-color);
+    margin-right: 15px;
+    text-decoration: none;
+    transition: color 0.5s ease; /* Smooth color transition on hover */
+  }
+  
+  .search-icon:hover {
+    color: var(--link-hover-color);
+  }
+  /* Nav links styles */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* Add additional nav links styles here */
+  }
+  
+  /* List item styles */
+  .nav-links li {
+    margin-right: 30px;
+    display: inline-block;
+    /* Add additional list item styles here */
+  }
+  
+  /* Unordered list styles */
+  .nav-links ul {
+    padding: 0;
+    /* Add additional unordered list styles here */
+  }
+  
+  /* Anchor styles */
+  .nav-links a {
+    text-decoration: none;
+    color: var(--link-color);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  
+    /* Additional hover effect */
+    &:hover {
+      color: var(--link-hover-color);
+    }
+  }
+  

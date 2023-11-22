@@ -1,0 +1,115 @@
+/* Services.css */
+
+.services {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .services-content {
+    max-width: 900px; /* Adjust max-width for responsiveness */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+  }
+  
+  .service-item {
+    text-align: center;
+    width: calc(33.33% - 20px); /* Adjust width and margin for spacing */
+    margin: 0 10px 20px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    box-sizing: border-box; /* Include padding in width calculation */
+    position: relative; 
+    border: 2px solid #808080; /* Border color */
+  }
+  
+  .services-content .service-item:hover {
+    transform: scale(1.05);
+    background-color: #f5f5f5; /* Adjust background color on hover */
+  }
+
+  .services-content .service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #e74c3c; /* Change color as needed */
+    position: relative; /* Add relative positioning */
+  }
+  
+  .services-content .service-item i {
+    color: #333; /* Set icon color */
+  }
+  
+  .services-content .service-item img {
+    width: 100%;
+    max-height: 150px; /* Adjust max-height as needed */
+    object-fit: cover;
+    border-radius: 8px; /* Adjust border-radius as needed */
+    margin-bottom: 10px;
+  }
+  
+  .services-content .service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333; /* Adjust color as needed */
+    position: relative; /* Add relative positioning */
+  }
+  
+  .services-content .service-item h3::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #555; /* Underline color */
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+  }
+  
+  .services-content .service-item p {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  .get-in-touch {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+
+  .get-in-touch h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333; /* Adjust color as needed */
+  }
+
+  .get-in-touch p{
+    font-size: 1.2em;
+    color: #777;
+  }
+
+  .get-in-touch .btn {
+    display: inline-block;
+    width: auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    color: #ffffff;
+    background-color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .get-in-touch .btn:hover {
+    background-color: #ffffff;
+    color: #3498db;
+  }
+  
